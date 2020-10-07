@@ -1,0 +1,78 @@
+-------------NEW-------------------
+Issue 1:
+
+Solver failed when solving following set of constraints
+
+3 test(s) failed with similar error:
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ila/nrz/10l12g/ip_generate_inband1/compile/ilk_VRGEN_1_1_CLSW001_test_0194583
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ila/nrz/10l12g/ip_generate_inband1/compile/ilk_stair_min88_test_0674490
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ila/pam4/12l26g_pam4/ip_generate_inband1/compile/ilk_stair_min88_test_0324031
+
+-------------NEW-------------------
+Issue 2
+
+Hung
+
+10 test(s) failed with similar error:
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_nrz/interleave/12l12g_iw8_cal4/ip_generate_inband1/compile/ilk_rxloa_test_0300586
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_nrz/interleave/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_rxloa_test_0123607
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/interleave/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_rxloa_test_0885325
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_rxloa_test_052294
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_nrz/interleave/seg_1/10l12g_iw8_cal2/ip_generate_inband1/compile/ilk_rxloa_test_0972481
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_nrz/interleave/seg_2/12l10g_iw8_cal4/ip_generate_inband1/compile/ilk_rxloa_test_0205707
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_pam4/interleave/seg_2/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_100g_overflow_test_0863420
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_pam4/interleave/seg_2/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_rxloa_test_048425
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_pam4/interleave/seg_4/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_100g_overflow_test_025725
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_pam4/interleave/seg_4/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_rxloa_test_0994109
+
+-------------NEW-------------------
+Issue 3
+
+Unknown (Due to stdout has been deleted, Hafiz will rerun)
+
+2 test(s) failed with similar error:
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_pam4/interleave/seg_2/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_reset_3c_test_0739021
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile_itfc/c3_nrz/interleave/seg_2/12l10g_iw8_cal4/ip_generate_inband1/compile/ilk_msrxe_test_0495344
+
+-------------NEW-------------------
+Issue 4:
+
+testbench/cov/ilk_rxpcs_pam4.sv", 20: uflex_ilk_comp_ext_s10_top.dut.ilk_pcs_pam4_coverage_bind_0.VRCHK_1_1_RXPCS_PAM4001_SKP: started at 157564886000fs failed
+
+1 test(s) failed with similar error:
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/interleave/12l25g_iw16_cal16/ip_generate_inband1/compile/ilk_reset_test_0479328
+
+-------------NEW-------------------
+Issue 5:
+
+"/tmp/arc_23712486/_0/regtest/ip/altera_uflex_interlaken/testbench/cov/ilk_ibfc_tx_cov.sv", 139: uflex_ilk_comp_ext_s10_top.dut.ilk_coverage_bind.VRCHK_4_4_1_2_IBFC001_TX: started at 353540866000fs failed at 353540866000fs
+        Offending '(tx_ibfc_calendar == itx_calendar_reg)'
+
+2 test(s) failed with similar error:        
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_b2b_129b_bmax256_stress_test_0102070
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_b2b_129b_bmax128_stress_test_0833616
+
+-------------NEW-------------------
+Issue 6:
+
+testbench/cov/ilkn_xcoder_assertion.sv", 74: uflex_ilk_comp_ext_s10_top.dut.soft_pcs_pam4.ilk_xcoder.xcoderlp[1].u_ilkn_xcoder_top.ilkn_xcoder_assertion_1.VRCHK_4_8_TXCDS002_1: started at 137165918000fs failed at 137168442000fs
+
+1 test(s) failed with similar error:   
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_VRGEN_4_8_TXCDS001_test_0561293
+
+-------------NEW-------------------
+Issue 7:
+
+UVM_ERROR /tmp/arc_23712486/_0/regtest/ip/altera_uflex_interlaken/testbench/uvc/agents/csr_mm_agent/csr_mm_drv.sv(104) @ 156725.000ns: uvm_test_top.top_env.mm_agt.drv [csr_mm_drv:drv] CSR RDATA XMATCHES mm_addr = 1081,exp_data = 00000222 mm_rdata = 00000202
+
+1 test(s) failed with similar error: 
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_VRGEN_4_8_GB007_test_0697663
+
+-------------NEW-------------------
+Issue 8:
+
+testbench/cov/ilk_rxpcs_pam4.sv", 20: uflex_ilk_comp_ext_s10_top.dut.ilk_pcs_pam4_coverage_bind_2.VRCHK_1_1_RXPCS_PAM4001_SKP: started at 172524634000fs failed at 243812490000fs
+
+2 test(s) failed with similar error: 
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_reset_long_short_test_0359480
+regtest/ip/altera_uflex_interlaken/scripts_s20/funct_deterministic/s20_uflex_ilkn_etile/c3_pam4/packet/12l25g_iw16_cal1/ip_generate_inband1/compile/ilk_reset_long_short_test_0359480
